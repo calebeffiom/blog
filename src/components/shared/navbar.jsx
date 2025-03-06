@@ -1,7 +1,7 @@
 import Container from "./container"
 import { Link } from "react-router-dom";
-import profile from "../../assets/images/profile.png"
-import SearchIcon from '@mui/icons-material/Search';
+// import profile from "../../assets/images/profile.png"
+// import SearchIcon from '@mui/icons-material/Search';
 import "../../styles/navbar.css"
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/">Trending Stories</Link></li>
                                 <li><Link to="/">Latest Stories </Link></li>
-                                <li><Link to="/">Signup</Link></li>
+                                <li><Link to="/">Signin</Link></li>
                                 <li className="rounded-[20px] bg-[#2E2E2E] text-[#fff]"><Link to="/" className="py-[8px] px-[30px] block">Get Started</Link></li>
                             </ul>
                         </div>

@@ -1,0 +1,22 @@
+.stories-cont{
+    /* display: grid; */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+}
+.stories-cont h2{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}   
+.stories-cont p{
+    width: 100%;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.article-writer-details{
+    position: absolute;
+    bottom: 0;
+}
