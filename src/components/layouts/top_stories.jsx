@@ -1,9 +1,9 @@
 import { TopStoriesSection } from "../pages/top-stories";
 import { Navbar } from "../shared";
 const TopStories = () =>{
-    return(<>
+    return(<div>
         <Navbar/>
-        <TopStories/>
-    </>)
+        <TopStoriesSection/>
+    </div>)
 }
 export default TopStories;

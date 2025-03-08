@@ -1,10 +1,11 @@
-import { LandingLayout, LatestStories, TopStories } from "./components/layouts"
+import { LandingLayout, LatestStories, TopStories, ProfileLayout } from "./components/layouts"
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-      <TopStories/>
+    <ProfileLayout/>
+      {/* <TopStories/> */}
       {/* <LandingLayout /> */}
       {/* <LatestStories/> */}
     </BrowserRouter>
